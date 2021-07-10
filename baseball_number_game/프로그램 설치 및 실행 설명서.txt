@@ -1,0 +1,17 @@
+1. pictures 폴더를 C드라이브에 위치해야 합니다.
+
+2. NanumGothicExtraBold.ttf를 게임 실행 폴더에 위치시키고 글꼴을 다운받습니다.
+
+3. 파이참 실행 후 pygame을 설치합니다(아래 Terminal에서 pip install pygame 입력)
+
+4. baseball_number_game.py와 gameclass.py가 같은 폴더에 위치한 상태로 baseball_number_game.py을 run합니다.
+
+5. 게임 실행 후 안내문을 읽고 아래 흰 박스를 클릭 후 하늘색이 되면 숫자를 입력하시면 됩니다.
+
+6. 한글이 깨져서 나올 경우 파이참에서 file -> settinng -> editor -> file Encodings -> 
+    project Encoding/Properties Files(Default encoding for properties files) 를 "utf-8"로 바꾼 뒤 실행해보시길 바랍니다.
+
+7. 만약 중복되지 않는 4자리 숫자를 입력했음에도 경고창만 뜨고 결과가 출력되지 않는다면 backspace로 박스에 있는 숫자를 
+   다 지운 뒤 다시 입력해주세요.
+
+8. 화면이 커서 위 버튼이 보이지 않는 현상은 수정 중에 있습니다.
